@@ -10,7 +10,7 @@ class NewsController extends Controller {
         { id: 2, title: 'this is news 2', url: '/news/2' },
       ],
     };
-    await this.ctx.render('news/list.tpl', dataList);
+    await this.ctx.render('news/list.pug', dataList);
   }
 }
 

@@ -9,7 +9,7 @@ module.exports = appInfo => {
   exports.view = {
     defaultViewEngine: 'nunjucks',
     mapping: {
-      '.tpl': 'nunjucks',
+      '.pug': 'pug',
     },
   };
   // add your config here
