@@ -6,7 +6,7 @@ html
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     title Hacker News
   body
-    h1 Hacker News
+    h1 Hacker News #{helper.relativeTime(10)}
     ul.news-view.view
       each item in list
         li.item
