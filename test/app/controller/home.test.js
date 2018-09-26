@@ -1,5 +1,5 @@
 'use strict';
-
+console.log('home.test.js')
 const { app, assert } = require('egg-mock/bootstrap');
 
 describe('test/app/controller/home.test.js', () => {
